@@ -1,0 +1,26 @@
+body{
+  background-color: #f56642;
+}
+.checked {
+    color: orange;
+}
+input[type=radio]{
+    margin-right: 20px;
+    width: 0;
+    height: 0;
+}
+.rate-stars{
+  width:100%;
+  text-align:center;
+  margin:-23px auto; 
+}
+.fa-star{
+  cursor:pointer;
+}
+.stars-container{
+  border:solid 2px orange;
+  width:fit-content;
+  margin:10% auto;
+  padding:20px;
+  border-radius:12px;
+}
